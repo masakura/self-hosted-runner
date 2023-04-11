@@ -6,4 +6,4 @@ jobs:
   sample:
     runs-on: macos-12
     steps:
-      - run: ./sample.sh
+      - run: sh ./sample.sh
