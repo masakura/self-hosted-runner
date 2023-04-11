@@ -1,0 +1,7 @@
+on: push
+
+jobs:
+  sample:
+    runs-on: macos-12
+    steps:
+      - run: pwsh -Command ./sample.ps1
